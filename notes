@@ -1,0 +1,20 @@
+lab@utility>  /.wait.sh
+which oc 
+which kubectl
+
+oc completion bash > .oc_bash_completion.sh
+echo "source .oc_bash_completion.sh" >> ~/.bashrc 
+
+
+[user@host ~]$ oc login -u admin -p redhatocp https://api.ocp4.example.com:6443
+Login successful.
+
+[user@host ~]$ oc whoami —show-console
+https://console-openshift-console.apps.ocp4.example.com
+
+which al
+
+which dl
+
+cluster settings -- cluster operators
+Operators -- operators hub
